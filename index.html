@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rigan Ougo | Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+      </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1>Rigan Ougo 😎💻</h1>
+            <ul>
+                <!-- Navigation Links -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="./Assets/RiganOugo_CV.pdf" download>Download CV</a></li>
+                <li><a href="#cv-contact-container">Contact</a></li>
+                <!-- Theme Toggle Button -->
+                <li><button id="theme-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <img src="./Assets/profile1.jpg" alt="Profile Picture" class="profile-image">
+            <div class="hero-text">
+                <h2 id="greeting"></h2> <!-- Placeholder for dynamic greeting -->
+                <h2>I'm Rigan Ougo</h2>
+                <p>A junior web developer. php, Javascript, Java</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About and Skills Section -->
+    <div id="about-skills-container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>As a junior web developer with a strong foundation in both web development and database management , 
+                I am passionate about crafting scalable solutions that blend front-end elegance with robust back-end
+                functionality. Familiar with HTML, CSS, JavaScript, PHP, Java ,Python and SQL , I thrive on solving complex 
+                problems and optimizing systems for efficiency. My expertise extends to managing databases using SQL Server,
+                MySQL, PostgreSQL , and leveraging tools like Git, GitHub, VS Code, NetBeans, and Code Blocks to ensure 
+                seamless collaboration and high-quality code. Driven by a love for learning and staying current with 
+                industry trends, I am eager to contribute impactful solutions to any project.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Database Administration (SQL Server, MySQL, PostgreSQL)</li>
+                <li>Programming languages (Python,Php,SQL, Java, C++)</li>
+                <li>Tools and IDEs (Git, GitHub, VS Code, NetBeans, Code Blocks)</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-title">
+            <h2>Sample Projects</h2>
+            <p>These are some of the projects I’ve worked on as a junior developer, where I applied my skills in web development ,
+                database management , and front-end design. I have gained the  required basic skills  in building responsive websites, automating data workflows, and creating interactive systems that offer seamless user experiences. By leveraging tools like HTML, CSS, JavaScript, PHP, SQL , 
+                and Git, I ensure efficient back-end processes and smooth integration with databases.</p>
+        </div>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>Sample Data Importing Using Python</h3>
+                <img src="./Assets/background2.jpg" alt="Data Importing Project" class="project-image">
+                <p>Explore the <a href="https://imani-prog-data-importing-dashboard-jhzokj.streamlit.app/" target="_blank">deployed app </a>  or check out the <a href="https://github.com/imani-prog/data_importing.git" target="_blank"> GitHub repository</a>.</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>Watulivu Barber Shop</h3>
+                <img src="./Assets/watulivu.jpg" alt="Barber Shop Project" class="project-image">
+                <p>Visit the <a href="https://imani-prog.github.io/BarberShop/" target="_blank">live site</a> or check out the <a href="https://github.com/imani-prog/BarberShop.git" target="_blank">GitHub repository</a>.</p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>Dorca Hospital Management System</h3>
+                <img src="./Assets/background.jpg" alt="Hospital Management Project" class="project-image">
+                <p>Check out the <a href="https://github.com/imani-prog/DorcaHospitalManagementSystem.git" target="_blank">GitHub repository</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Objectives and Contact Section -->
+    <section id="cv-contact-container">
+        <!-- Career Objectives Section -->
+        <div class="career-objectives-card">
+            <h2>Career Objectives</h2>
+            <p>As an entry-level professional, I am eager to contribute to innovative projects, learn from experienced mentors, and grow my expertise web development , database management , and front-end design. My goal is to leverage my skills to build scalable, efficient, and impactful solutions that drive success for organizations.<br>
+            I am passionate about solving complex problems, staying updated with industry trends, and continuously improving my technical and interpersonal skills. I am excited to collaborate with teams that value creativity, innovation, and a commitment to excellence.</p>
+        </div>
+        <!-- Contact Section -->
+        <div class="contact-card">
+            <h2>Contact</h2>
+            <form id="contact-form" action="https://formspree.io/f/xrbprnrg" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    
+    <footer id="footer">
+        <p>Email: <a href="mailto:ougorigan@gmail.com">ougorigan@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/rgan-ougo-32791734b" target="_blank">https://www.linkedin.com/in/rgan-ougo-32791734b</a></p>
+        <p>Phone Number: <a href="tel:+254113365105">+254113365105</a></p>
+        <p>&copy; 2025 Rigan Ougo.<br> All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
