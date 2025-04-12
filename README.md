@@ -31,7 +31,7 @@ Welcome to the official portfolio of **Rigan Ougo**. This project showcases my s
 
 ## 🌐 Live Demo
 
-Check out the live version of the portfolio [here](https://imani-prog.github.io/TimothyImaniProfile/).
+Check out the live version of the portfolio [here](https://imani-prog.github.io/Rigan_Ougo_Portfolio/).
 
 ## 🛠️ Technologies Used
 
