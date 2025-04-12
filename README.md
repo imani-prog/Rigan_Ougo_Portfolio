@@ -1,6 +1,6 @@
-# Timothy Imani | Portfolio
+# Rigan Ougo | Portfolio
 
-Welcome to the official portfolio of **Timothy Imani**. This project showcases my skills, projects, and professional journey as a **Database Administrator**, **Data Engineer**, and **Web Developer**.
+Welcome to the official portfolio of **Rigan Ougo**. This project showcases my skills, projects, and professional journey as a **website developer**, **Database administrator**, and **Frontend designer**.
 
 ## 🌟 Features
 
@@ -21,11 +21,11 @@ Welcome to the official portfolio of **Timothy Imani**. This project showcases m
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/imani-prog/TimothyImaniProfile.git
+   git clone https://github.com/imani-prog/Rigan_Ougo_Portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd TimothyImaniProfile
+   cd RiganOugo Profile
    ```
 3. Open `index.html` in your browser to view the portfolio.
 
@@ -44,10 +44,8 @@ Check out the live version of the portfolio [here](https://imani-prog.github.io/
 
 Feel free to reach out to me:
 
-- **Email**: [timothyimani6@gmail.com](mailto:timothyimani6@gmail.com)
-- **GitHub**: [github.com/imani-prog](https://github.com/imani-prog)
-- **LinkedIn**: [linkedin.com/in/timothy-imani-5677ba253](https://www.linkedin.com/in/timothy-imani-5677ba253)
-
+- **Email**: [ougorigan@gmail.com](mailto:ougorigan@gmail.com)
+- **LinkedIn**: [https://www.linkedin.com/in/rgan-ougo-32791734b](https://www.linkedin.com/in/rgan-ougo-32791734b)
 ---
 
 Thank you for visiting my portfolio! 😊
