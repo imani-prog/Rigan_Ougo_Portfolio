@@ -1,6 +1,6 @@
 # Rigan Ougo | Portfolio
 
-Welcome to the official portfolio of **Rigan Ougo**. This project showcases my skills, projects, and professional journey as a **website developer**, **Database administrator**, and **Frontend designer**.
+Welcome my official portfolio website. This project showcases my skills, projects, and professional journey as a **website developer**, **Database administrator**, and **Frontend designer**.
 
 ## 🌟 Features
 
